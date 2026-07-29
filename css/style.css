@@ -52,14 +52,7 @@
   .eyebrow::before{ content:"›"; color:var(--amber); font-weight:700; }
 
   /* ---------- NAV ---------- */
-  header{
-    position:fixed;
-    top:0; left:0; right:0;
-    z-index:100;
-    background:rgba(11,13,17,0.75);
-    backdrop-filter:blur(10px);
-    border-bottom:1px solid var(--border);
-  }
+
   .nav{
     display:flex;
     align-items:center;
